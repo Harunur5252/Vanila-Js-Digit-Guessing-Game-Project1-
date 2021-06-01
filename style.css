@@ -1,0 +1,15 @@
+.box{
+    height: 30px;
+    width: 250px;
+    border: 1px solid red;
+    text-align: center;
+}
+.box2{
+    height: 30px;
+    width: 250px;
+    border: 1px solid green;
+    text-align: center;
+}
+.color{
+    color: red;
+}
