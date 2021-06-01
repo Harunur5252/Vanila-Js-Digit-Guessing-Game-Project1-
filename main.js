@@ -42,7 +42,7 @@
     headingOne.style.display=''
     const link = document.createElement('a')
     link.setAttribute('class','btn btn-primary')
-    link.setAttribute('href','/Gueesing%20Game/index.html')
+    link.setAttribute('href','/Vanila-Js-Digit-Guessing-Game-Project1-/')
     link.textContent='Play Again'
     addLink.append(link)
  }
