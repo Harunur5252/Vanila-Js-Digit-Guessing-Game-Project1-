@@ -18,6 +18,7 @@
  let rightValue=0
  let wrongAnsPerValue=0
  let rightAnsPerValue=0
+ let happyImgValue = 0
  let genRandomValue  = Math.ceil(Math.random()*9)
 
  function removeItem(){
@@ -42,7 +43,7 @@
     headingOne.style.display=''
     const link = document.createElement('a')
     link.setAttribute('class','btn btn-primary')
-    link.setAttribute('href','https://harunur5252.github.io/Vanila-Js-Digit-Guessing-Game-Project1-/')
+    link.setAttribute('href','/Gueesing%20Game/index.html')
     link.textContent='Play Again'
     addLink.append(link)
  }
@@ -100,7 +101,6 @@
    }
   else if(conVToNumber!==genRandomValue){
     maxValue++
-    
     if(maxValue===6){
       isGameOver()
       removeItem()
@@ -112,11 +112,12 @@
     isWrongDigit()
 
  }else if(conVToNumber===genRandomValue){
+   happyImgValue++
    if(maxValue===6){
       isGameOver()
       removeItem()
     }
-    if(maxValue===1){
+    if(happyImgValue===1){
       addHappyImage()
     }
     isRightDigit()
