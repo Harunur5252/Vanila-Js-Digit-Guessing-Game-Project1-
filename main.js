@@ -1,13 +1,10 @@
-
-// data
-const data = {
+const data={
    maxValue:0,
    wrongValue:0,
    rightValue:0,
    wrongAnsPerValue:0,
    rightAnsPerValue:0,
    happyImgValue : 0,
-   nine:9,
    getZeroValue(){
       this.wrongValue=0;
       this.rightValue=0;
