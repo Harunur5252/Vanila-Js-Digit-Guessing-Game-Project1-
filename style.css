@@ -1,14 +1,32 @@
+body{
+    background-color: darkgray;
+}
+
 .box{
     height: 30px;
     width: 250px;
     border: 1px solid red;
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
     text-align: center;
 }
 .box2{
     height: 30px;
     width: 250px;
     border: 1px solid green;
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
     text-align: center;
+}
+.box3{
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
 }
 .color{
     color: red;
