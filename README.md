@@ -3,10 +3,11 @@ Simple digit guessing game using Vanilla js
 
 # Project Specifications
 
-+ create a simple UI(user interface).
++ Create a simple UI(user interface).
 + Initial state have one button and a input filed.
 + You can give digit from 0-9 and can try for 5 times.
-+ To give a value in the input field and when click on Play Game button then if digit is matched with random value then will show a green box and a happyImg otherwise show a sorryImg and a red box. 
++ To give a value in the input field and when click on Play Game button then if digit is matched with random value then will show a green box and a happyImg otherwise show a sorryImg and a red box.
++ Write answer and wrong answer depends on write digit and wrong digit.
 
 
 ## Project Picture
