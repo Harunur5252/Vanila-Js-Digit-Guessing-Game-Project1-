@@ -4,7 +4,7 @@
 # Digit Guessing Game 
 Simple digit guessing game using Vanilla js   
 
-# Project Specifications
+## Project Specifications
 
 + Create a simple UI(user interface).
 + Initial state have one button and a input filed.
